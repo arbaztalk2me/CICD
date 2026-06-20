@@ -16,7 +16,7 @@ public class TestController {
 
     @GetMapping("/umrah")
     public ResponseEntity<String> umrah(){
-        return new ResponseEntity<>("hey baebs i love you baby", HttpStatus.OK);
+        return new ResponseEntity<>("hello umrah", HttpStatus.OK);
     }
     
 }
