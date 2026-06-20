@@ -12,5 +12,11 @@ public class TestController {
     public ResponseEntity<String> test(){
         return new ResponseEntity<>("Testing done", HttpStatus.OK);
     }
+
+
+    @GetMapping("/umrah")
+    public ResponseEntity<String> umrah(){
+        return new ResponseEntity<>("hey baebs i love you baby", HttpStatus.OK);
+    }
     
 }
